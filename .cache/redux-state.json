@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "971f975dc41701157d1bcaae44f297a0",
+        "contentDigest": "9a6a4243fd738e782bbcfdc081d3c427",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -430,11 +430,76 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-eslint": {
+      "resolve": "/Users/zane/GitHub/blog/node_modules/gatsby-plugin-eslint",
+      "id": "Plugin gatsby-plugin-eslint",
+      "name": "gatsby-plugin-eslint",
+      "version": "1.0.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/zane/GitHub/blog/node_modules/gatsby-plugin-eslint",
+      "packageJson": {
+        "name": "gatsby-plugin-eslint",
+        "description": "Gatsby plugin to add support for ESLint",
+        "version": "1.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "eslint"
+        ],
+        "author": {
+          "name": "Mong-Kuen Sun",
+          "email": "mongkuen.sun@gmail.com"
+        },
+        "license": "MIT",
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-es2015",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "eslint",
+            "version": "^4.9.0"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "^2.0.0"
+          }
+        ],
+        "dependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "633a500edb2d3d5d70dcb6193e933cf3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/zane/GitHub/blog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "e03ad4c572f4d99c488c78f60770df81",
+      "version": "0947a84aca30409fb1df7ab9c806b9b7",
       "pluginOptions": {
         "plugins": []
       },
@@ -479,6 +544,38 @@
         ],
         "devDependencies": [
           {
+            "name": "eslint",
+            "version": "4.19.1"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "2.9.0"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "2.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "2.11.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "6.0.3"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "7.7.0"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "3.1.0"
+          },
+          {
+            "name": "gatsby-plugin-eslint",
+            "version": "1.0.3"
+          },
+          {
             "name": "prettier",
             "version": "^1.12.0"
           }
@@ -490,7 +587,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6fb2c412d1f9970509fa2a4052304fd4",
+        "contentDigest": "d228a47594b151313c612b76dd64befe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -503,12 +600,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-05-03T21:40:16.514Z",
+      "buildTime": "2018-05-03T21:57:55.260Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b1b3931f74b4f676bdb5a80543ef2536",
+        "contentDigest": "bc619eccab827234be64f67588c99c16",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -529,7 +626,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c9dc6234e7073d9c075b288b7ddf3bfa",
+        "contentDigest": "f3f77086d13e966a69b17151771780ff",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -550,7 +647,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea34564c66c14a8b0a89c5da14abef23",
+        "contentDigest": "ebd16c977113a9ba711d4c80f96f09d7",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -571,7 +668,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ed99ba0ee1286f39b6333cb15b2d4922",
+        "contentDigest": "2fc4cf834af56771a675d9b530886c78",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -592,7 +689,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "921f4b6db89f4eb63bbcce1158d63967",
+        "contentDigest": "c0ed3d7a3c5bc3faf4639505e85c9378",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -600,7 +697,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8ee25893761cd480950aa42c16175973"
+    "PLUGINS_HASH": "587d6058c0c71a82fc23c41e16094c60"
   },
   "componentDataDependencies": {
     "nodes": {
