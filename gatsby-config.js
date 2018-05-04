@@ -5,6 +5,12 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-jsx-postcss',
-    'gatsby-plugin-eslint'
+    'gatsby-plugin-eslint',
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
   ],
 };
