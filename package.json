@@ -9,6 +9,8 @@
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-styled-jsx-postcss": "1.0.3",
     "gatsby-plugin-typography": "1.7.18",
+    "gatsby-source-filesystem": "1.5.35",
+    "gatsby-transformer-remark": "1.7.40",
     "npm": "6.0.0",
     "react-helmet": "^5.2.0",
     "typography-theme-fairy-gates": "0.15.11"
