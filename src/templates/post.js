@@ -2,6 +2,14 @@ import React from "react";
 
 export default ({ data }) => {
   const post = data.markdownRemark;
+  const comments = data.allCommentsYaml.edges.map(({node: { name, comment, date }}) => (
+    <div>
+      <span>{ name }</span> -
+      <span>{ date }</span>
+      <p>{ comment }</p>
+    </div>
+  ));
+
   return (
     <div>
       <h1>{post.frontmatter.title}</h1>
@@ -15,6 +23,7 @@ export default ({ data }) => {
         <label><textarea name="fields[comment]"></textarea>Message</label>
         <button type="submit">Go!</button>
       </form>
+      { comments }
     </div>
   );
 };
@@ -28,6 +37,15 @@ export const query = graphql`
       }
       fields {
         slug
+      }
+    }
+    allCommentsYaml(filter: { slug: { eq:"pandas-and-bannanas"}}, sort: {fields: [date], order: DESC}) {
+      edges {
+        node {
+          name
+          comment
+          date
+        }
       }
     }
   }
