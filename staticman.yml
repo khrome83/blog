@@ -48,20 +48,20 @@ comments:
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  notifications:
+  # notifications:
     # Enable notifications
-    enabled: true
+    # enabled: true
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey:
-      secret: enTh6tpDAGQl5R9m9HFIrprXocc5FQijR67R1B7n+QgaysKxjdx4oYt5+DH9WdpxRmH6eszgZmxhb4r+Dxf5MXHbFEZs7IL1OZS9/DiBnDEXG4nMW5oYSJl0jgyPCEF3JqB8rXkOx6q71rT3OrjXORoyW3qhoh8ZaI0y/cGwMaU=
+    # apiKey:
+      # secret: enTh6tpDAGQl5R9m9HFIrprXocc5FQijR67R1B7n+QgaysKxjdx4oYt5+DH9WdpxRmH6eszgZmxhb4r+Dxf5MXHbFEZs7IL1OZS9/DiBnDEXG4nMW5oYSJl0jgyPCEF3JqB8rXkOx6q71rT3OrjXORoyW3qhoh8ZaI0y/cGwMaU=
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "mg.zanemilakovic.com"
+    # domain: "mg.zanemilakovic.com"
 
   # (*) REQUIRED
   #
