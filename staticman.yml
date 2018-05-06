@@ -7,7 +7,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "url", "comment"]
+  allowedFields: ["name", "email", "url", "comment", "slug"]
 
   # (*) REQUIRED
   #
@@ -21,7 +21,7 @@ comments:
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "comment-{@timestamp}"
+  filename: "{options.slug}-{@timestamp}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -32,12 +32,10 @@ comments:
   # with a `type` property, which configures the generated field, or any value
   # to be used directly (e.g. a string, number or array)
   generatedFields:
-    slug: {options.slug}
     date:
       type: date
       options:
         format: "timestamp-seconds"
-
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
