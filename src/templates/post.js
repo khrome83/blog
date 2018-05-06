@@ -11,7 +11,7 @@ export default ({ data }) => {
         <input name="options[slug]" type="hidden" value={post.fields.slug.slice(1, -1)} />
         <label><input name="fields[name]" type="text" />Name</label>
         <label><input name="fields[email]" type="email" />E-mail</label>
-        <label><textarea name="fields[message]"></textarea>Message</label>
+        <label><textarea name="fields[comment]"></textarea>Message</label>
         <button type="submit">Go!</button>
       </form>
     </div>
