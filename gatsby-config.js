@@ -16,6 +16,14 @@ module.exports = {
     },
     'gatsby-transformer-remark',
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `comments`,
+        path: `${__dirname}/src/_data/comments/`,
+      },
+    },
+    'gatsby-transformer-yaml',
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography.js`,
