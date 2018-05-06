@@ -32,7 +32,7 @@ comments:
   # with a `type` property, which configures the generated field, or any value
   # to be used directly (e.g. a string, number or array)
   generatedFields:
-    slug: "{options.slug}"
+    slug: {options.slug}
     date:
       type: date
       options:
