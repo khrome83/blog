@@ -16,12 +16,12 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "New comment on {options.slug} from {fields.name}"
+  commitMessage: "New Comment for {fields.slug} from {fields.name}"
 
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "{options.slug}-{@timestamp}"
+  filename: "{@id}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -55,8 +55,7 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    # apiKey:
-      # secret: enTh6tpDAGQl5R9m9HFIrprXocc5FQijR67R1B7n+QgaysKxjdx4oYt5+DH9WdpxRmH6eszgZmxhb4r+Dxf5MXHbFEZs7IL1OZS9/DiBnDEXG4nMW5oYSJl0jgyPCEF3JqB8rXkOx6q71rT3OrjXORoyW3qhoh8ZaI0y/cGwMaU=
+    # apiKey: enTh6tpDAGQl5R9m9HFIrprXocc5FQijR67R1B7n+QgaysKxjdx4oYt5+DH9WdpxRmH6eszgZmxhb4r+Dxf5MXHbFEZs7IL1OZS9/DiBnDEXG4nMW5oYSJl0jgyPCEF3JqB8rXkOx6q71rT3OrjXORoyW3qhoh8ZaI0y/cGwMaU=
 
     # (!) ENCRYPTED
     #

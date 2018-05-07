@@ -20,7 +20,6 @@ export default ({ data }) => {
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <form method="POST" action="https://api.staticman.net/v2/entry/khrome83/blog/master/comments">
         <input name="options[redirect]" type="hidden" value="localhost:8000" />
-        <input name="options[slug]" type="hidden" value={post.fields.slug.slice(1, -1)} />
         <input name="fields[slug]" type="hidden" value={post.fields.slug} />
         <label><input name="fields[name]" type="text" />Name</label>
         <label><input name="fields[email]" type="email" />E-mail</label>
